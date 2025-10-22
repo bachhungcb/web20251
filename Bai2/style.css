@@ -1,0 +1,108 @@
+body {
+  background-color: #feebf6;
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+/*Media*/
+@media (max-width: 600px) {
+  #product-list {
+    flex-direction: column;
+  }
+  .product-item {
+    flex: 1 1 100%;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 5px 0;
+  }
+}
+
+/*Nav bar*/
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+/*Product list*/
+#product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-item {
+  flex: 1 1 30%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  background: #ebd6fb;
+}
+
+.product-item img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.product-item h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #687fe5;
+}
+
+.product-desc {
+  font-style: italic;
+}
+
+.product-price {
+  text-align: center;
+  color: #ee4b2b;
+}
+
+/*Footer*/
+form {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9rem;
+  background-color: #333;
+  color: #ccc;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/*Button*/
+button {
+  background-color: #687fe5;
+  color: #fff;
+  display: block;
+  margin: 10px auto 0;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #687fe5;
+  color: #fff;
+  opacity: 70%;
+}

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lapis Lazuli</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!--Header-->
@@ -11,8 +12,11 @@
       <!--Nav bar-->
       <h1>This is Nakiri's store</h1>
       <nav>
-        <a href="#">Home</a> | <a href="#">About us</a> |
-        <a href="#">Contact</a> |
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
       </nav>
     </header>
 
@@ -21,42 +25,42 @@
       <!--Product list-->
       <section id="product-list">
         <!--Product 1-->
-        <article>
+        <article class="product-item">
           <h2>Nakiri Ayame</h2>
-          <p>
+          <p class="product-desc">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos cumque
             reiciendis deserunt repudiandae animi, dolore dolorum inventore
             perferendis at porro eum libero enim explicabo, facere voluptas
             fugiat labore reprehenderit tempora!
           </p>
           <img src="images/nakiri.jpg" alt="nakiri" />
-          <p>$9.99</p>
+          <p class="product-price">$9.99</p>
         </article>
 
         <!--Product 2-->
-        <article>
+        <article class="product-item">
           <h2>Nakiri Ayame background</h2>
-          <p>
+          <p class="product-desc">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos cumque
             reiciendis deserunt repudiandae animi, dolore dolorum inventore
             perferendis at porro eum libero enim explicabo, facere voluptas
             fugiat labore reprehenderit tempora!
           </p>
           <img src="images/nakiri_bg.jpg" alt="nakiri_bg" />
-          <p>$19.99</p>
+          <p class="product-price">$19.99</p>
         </article>
 
         <!--Product 3-->
-        <article>
+        <article class="product-item">
           <h2>Nakiri Ayame Portrait</h2>
-          <p>
+          <p class="product-desc">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos cumque
             reiciendis deserunt repudiandae animi, dolore dolorum inventore
             perferendis at porro eum libero enim explicabo, facere voluptas
             fugiat labore reprehenderit tempora!
           </p>
           <img src="images/Nakiri-Ayame_list_thumb.png" alt="nakiri_bg" />
-          <p>$15.99</p>
+          <p class="product-price">$15.99</p>
         </article>
       </section>
     </main>
